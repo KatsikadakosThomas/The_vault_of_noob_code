@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<h1>Διάλεξε σε ποιά γλώσσα θες να δεις πως είναι το 'Για σοu!'</h1>
+
+<script>
+var helloWorld=function(code){
+switch(code){
+   case 'fr':
+      document.getElementById("result").innerHTML = "Bonjour!";
+      break;
+   case 'es':
+      document.getElementById("result").innerHTML = "Hola!";
+      break;
+   case 'jpn':
+      document.getElementById("result").innerHTML = "Konnichiwa!";
+      break;
+   default :
+      document.write('hello world')
+      break;
+   }
+  }
+  
+</script>
+
+<button type="button" onclick="helloWorld('fr')">γαλλικα!</button>
+<button type="button" onclick="helloWorld('jpn')">Ιαπωνικά!</button>
+<button type="button" onclick="helloWorld('es')">Ισπανικά!</button>
+<br>
+<br>
+<br>
+<button type="button" id='result' style="background-color:powderblue; height: 100px;width: 50%; font-size:200%;"></button>
+
+</body>
+</html>
