@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
+    
+    <title>Document</title>
+</head>
+<body>
+  <div>
+    <header>Binary to Decimal Converter</header>
+    <form>
+        <p>input your code</p>
+        <input type="text" id="textEle" value=""/></br>
+        <input type="submit" id="b" value="SUBMIT"/>
+        <!--<input id="result" type="text" value=""/> !-->
+    </form>
+    </div>
+   
+</body>
+<script>
+
+document.getElementById("b").addEventListener("click",
+function binary(){
+var input=document.getElementById("textEle").value;
+
+var n0 = input.slice(0,1)
+  if (n0=="1"){
+  n0=Math.pow(2,7) }else{
+  n0=0
+  }
+var n1 = input.slice(1,2)
+  if (n1=="1"){
+  n1=Math.pow(2,6) }else{
+  n1=0
+  }
+var n2 = input.slice(2,3)
+if (n2=="1"){
+  n2=Math.pow(2,5) }else{
+  n2=0
+  }
+var n3 = input.slice(3,4)
+if (n3=="1"){
+  n3=Math.pow(2,4) }else{
+  n3=0
+  }
+var n4 = input.slice(4,5)
+if (n4=="1"){
+  n4=Math.pow(2,3) }else{
+  n4=0
+  }
+var n5 = input.slice(5,6)
+if (n5=="1"){
+  n5=Math.pow(2,2) }else{
+  n5=0
+  }
+var n6 = input.slice(6,7)
+if (n6=="1"){
+  n6=Math.pow(2,1) }else{
+  n6=0
+  }
+var n7 = input.slice(7,8)
+if (n7=="1"){
+  n7=Math.pow(2,0) }else{
+  n7=0
+  }
+  
+//var sum//
+alert(n0+n1+n2+n3+n4+n5+n6+n7)
+//document.getElementById("result").value = sum;//
+}
+
+)
+
+
+    </script>
+</html>
