@@ -1,0 +1,209 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*text style*/
+#rightBox div h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+#middleBox h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 280px;
+    margin-left: 130px;
+
+}
+#one-five h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-left: 90px;
+}
+#two h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 130px;
+    margin-left: 130px;
+}
+#eleven h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-left: 210px;
+}
+#seven h1,#nine h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+#eight h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+
+/*container & outer boxes */
+.container{
+    max-width: 1200px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: papayawhip;
+}
+
+#leftBox{
+  height: 600px;
+  width: 40%;
+  background-color: rgb(255, 255, 255);
+float: left;
+box-sizing: border-box;
+border: 2px solid oldlace;
+}
+#middleBox{
+    height: 600px;
+    width: 40%;
+    background-color: rgb(255, 160, 123);
+    float: left;
+    box-sizing: border-box;
+    border: 2px solid oldlace;
+}
+
+#rightBox{
+    height: 600px;
+    width: 20%;
+    background-color: rgb(255, 0, 0);
+    float: right;
+    box-sizing: border-box;
+    border: 2px solid oldlace;
+}
+
+#bottomLeftbox{
+    height: 300px;
+    width: 100%;
+
+    float: left;
+
+}
+
+#upperLeftbox{
+    height: 300px;
+    width: 100%;
+    float: left;
+  
+}
+/* inner boxes*/
+
+#four{
+    height: 150px;   
+    width: 100%;
+    background-color: rgb(250, 220, 51);
+  
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+   }
+#six{
+    height: 150px;   
+    width: 100%;
+    background-color: rgb(66, 111, 179);
+  
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+   }
+#ten{
+    height: 150px;   
+    width: 100%;
+    background-color: rgb(68, 184, 199);
+  
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+   }
+#twelve{
+    height: 150px;   
+    width: 100%;
+    background-color: rgb(219, 20, 20);
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+   }
+/*c v*/
+#one-five{
+    height: 300px;   
+    width: 40%;
+ float: left;
+   }
+
+#one{
+height: 50%;
+background-color: rgb(185, 67, 102);
+border: 2px solid oldlace;
+box-sizing: border-box;
+}
+
+#five{
+    height: 50%;
+    background-color: rgb(1, 134, 12);
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+}
+/*c ^*/
+
+#two{
+    height: 300px;   
+    width: 60%;
+    background-color: rgb(255, 103, 189);
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+float: right;
+}
+
+/*c v*/
+#seven-eight-nine{
+    height: 150px;
+    width: 100%;   
+  
+   }
+
+#seven{
+    height: 150px;
+    width: 40%;
+    background-color: yellowgreen;
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+    float: left;
+}
+#eight{
+    height: 150px;
+    width: 20%;
+    background-color: rgb(1, 134, 12);
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+    float:left;
+}
+
+#nine{
+    height: 150px;
+    width: 40%;
+    background-color: rgb(50, 205, 184);
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+    float: right;
+}
+
+   /*c ^*/
+
+
+
+#eleven{
+    height: 150px;   
+    width: 100%;
+    border: 2px solid oldlace;
+    box-sizing: border-box;
+    background-color: rgb(71, 61, 139);
+   }
+
+ 
