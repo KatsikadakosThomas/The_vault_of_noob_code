@@ -1,0 +1,147 @@
+
+  #indexBody{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+
+}
+
+  #Name{
+font-family: 'Staatliches';font-size: 5vw;
+color: ghostwhite;
+text-shadow: 2px 2px #000000;
+
+
+}
+
+ .headImage {
+  position: relative;
+  width: 100%;
+  height: auto;
+  text-align: center;
+ 
+}
+
+
+div.headImage img {
+  width: 100%;
+  height: auto;
+  
+}
+.center {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -20%);
+}
+
+#thomasPhoto {
+  border-radius: 8px;
+  height:40%;
+  width: 40%;
+  box-shadow: 5px 10px 30px #000000;
+}
+#thomasPhotodiv{
+  position: absolute;
+  top: 80%;
+  right: 20%;
+  transform: translate(-20%, -80%);
+}
+
+#kesariani{
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+#buttonsDiv{
+  position: absolute;
+  top: 6%;
+  right: 47%;
+  
+}
+
+#contactB,#bioB {
+  background-color: #333333;
+  border: 1px cornsilk;
+  color: rgb(190, 255, 190);
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+#textArea{
+width: 300px;
+height: 200px;
+display:inline-block;
+z-index: +1;
+
+}
+
+.textAreapos {
+  position: absolute;
+  top: 75%;
+  left: 70%;
+  transform: translate(-75%, -70%);
+
+
+}
+#thomasInfo{
+color: ghostwhite;
+text-shadow: 2px 2px #000000;
+font-size: 80;
+
+}
+a{
+  color: rgb(0, 195, 255);
+
+}
+
+#gallery{
+color: rgb(190, 255, 190);
+background-color: #333333;
+padding: 10px;
+
+}
+
+.flex-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  border: rgb(0, 0, 0);
+  justify-content: space-around;
+  align-items: center;
+}
+
+#contactTable{
+
+  border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  background-color: #333333;
+}
+td,th,tr{
+  padding: 8px;
+  color: rgb(190, 255, 190);
+}
+
+.font{
+  font-family:'Staatliches';
+}
+.buttons{
+  background-color:#333333;
+  border: none;
+  color:rgb(190, 255, 190);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.defaultBody{
+  background-color: rgb(201, 201, 201);
+  text-align: center;
+}
+

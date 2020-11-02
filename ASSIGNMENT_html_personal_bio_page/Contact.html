@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link href='https://fonts.googleapis.com/css?family=Staatliches' rel='stylesheet'>
+    <title>Contact me!</title>
+</head>
+<body class="defaultBody">
+   <!--buttons-->
+ <a href="index.html"><button type="button" class="buttons" >Home</button></a>
+ <a href="bio.html"><button type="button" class="buttons" >Bio</button></a>
+<!--buttons-->
+
+    <!--info-->
+   <h1 class="font">KATSIKADAKOS THOMAS PHOTOGRAPHY</h1>
+
+   <p>500 Terry Francois Street San Francisco, CA  94158<br/>
+    T  123.456.7890  /    F  123.456.7890<br/>
+    tkatsika@gmail.com 
+   </p> 
+  <!--Submit form-->   
+    <form>
+        <table width="150" height="150" id="contactTable">
+         <th colspan="3">Send me a message below and I will contact you straight away!</th>
+           <!--row1-->
+           <tr>
+             <td><label><input type="text" required placeholder="Name"/></label></td>
+             <td rowspan="3"><label><input type="text" required placeholder="Message" style="height:90px; width:200px;" /></label></td>
+             <td rowspan="2"><label><input type="submit" value="Send" onclick="alert('Your message has been sent!')" /></label></td>
+
+           </tr>
+           <!--row2-->
+           <tr>
+             <td><label><input type="email" required placeholder="Email"/></label></td>
+           </tr>
+           <!--row3-->
+           <tr>
+            <td><label><input type="tel" placeholder="Telephone number"/></label></td>
+            <td><input type="reset"></td>
+           </tr>
+           <!--row4-->
+           <tr>
+               <th colspan="3">Choose the service you are intrested in</th>
+           </tr>
+           <!--row5-->
+           <tr>
+            <td><label><input type="radio" name="subect"/> Wedding</label></td>
+            <td><label><input type="radio" name="subect"/> Real estate</label></td>
+            <td><label><input type="radio" name="subect"/> Other</label></td>
+           </tr>
+       </table>
+    </form>
+</body>
+
+</html>
