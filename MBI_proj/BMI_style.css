@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#container{
+    height:480px;
+    width: 478px;
+    background-image: url("images/back.png");
+    margin: 100px auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+#htimg{
+    width: 40px;
+    height: 110px;
+    position: relative;
+    top: 250px;
+    left: 50px;
+}
+#wtimg{
+    width: 60px;
+    height: 30px;
+    position: relative;
+    left: 375px;
+    top: 175px;
+}
+
+input{
+    height: 30px;
+    width: 90px;
+    text-align: center;
+}
+
+#htInput{
+margin:140px 0px 0px 120px ;
+}
+#wtInput{
+margin-left: 55px;
+}
+
+#result{
+    position: relative;
+    top: -222px;
+    right: -155px;
+    height: 66px;
+    width: 164px;
+}
+#doIt{
+    color: white;
+    background-color: rgb(34, 0, 112);
+    position: relative;
+    top: 80px;
+    right:160px;
+    font-weight: bolder;
+}
