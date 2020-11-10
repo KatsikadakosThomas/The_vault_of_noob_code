@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+ const firstDate= new Date(2020,05,02);
+       const secondDate= new Date(2010,04,01);
+  
+     function calcDate(date1,date2){
+        monthDiff= Math.abs((date1.getMonth()+1)-(date2.getMonth()+1));
+        dayDiff=Math.abs(date2.getDate()-date1.getDate());
+        yearDiff=Math.abs(date1.getFullYear()-date2.getFullYear());
+    
+       let message="The difference is "+dayDiff+" days "+monthDiff+" months and "+yearDiff+" years"
+
+     return message
+
+     }
+
+
+     console.log(calcDate(firstDate, secondDate))
+
+    </script>
+</body>
+</html>
